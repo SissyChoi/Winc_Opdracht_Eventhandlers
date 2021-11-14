@@ -15,6 +15,6 @@ buttonBlue.addEventListener("click", function(makeButtonRed) {
 
 //Part 3
 const buttonToggle = function (buttonToggle) {
-    buttonBlue.classList.toggle("red-background"); //bestaat de class, haal dan weg <> bestaat de class niet, voeg dan toe
+    buttonBlue.classList.toggle("red-background"); //als class bestaat, haal dan weg <> als class niet bestaat, voeg dan toe
 };
 buttonBlue.addEventListener("click", buttonToggle);
